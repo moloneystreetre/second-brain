@@ -15,7 +15,7 @@ Grow subscribers: **1,000 subscribers by March 2027.** Content, marketing and pl
 Rules in `.claude/rules/` load automatically: communication style, public content, and the weekday schedule.
 
 ## Tools and integrations
-- **Daily tools:** WhatsApp, Instagram, Facebook, LinkedIn, TikTok, investing.com, Claude / Claude Code.
+- **Daily tools:** WhatsApp, Instagram, Threads, Facebook, LinkedIn, X, TikTok, YouTube, investing.com, Claude / Claude Code.
 - **MCP servers in Claude Code:** none connected yet. Add them here as they are connected.
 - Never post, send or publish anything externally without Yinka's go-ahead.
 
