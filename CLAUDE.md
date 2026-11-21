@@ -25,7 +25,7 @@ Skills are built organically: when the same request comes up repeatedly, turn it
 
 ### Skills to build (backlog)
 1. **NGX data extract:** pull the day's NGX data from investing.com (Mon-Fri, 18:00-19:00) into a clean, consistent format.
-2. **Daily social posts:** turn the 21:30 platform update into posts for WhatsApp, Instagram, Facebook, LinkedIn and TikTok (Mon-Fri).
+2. ~~**Daily social posts**~~ built: `.claude/skills/daily-social-posts/` (drafts saved to `projects/content-and-marketing/posts/`).
 3. **Video scripting:** script videos in Yinka's voice, plus recording notes (shot list, on-screen text, captions).
 4. **Engagement replies:** draft comments and replies on posts.
 5. **NGX research and platform update notes:** summarise research and write up each platform update.
