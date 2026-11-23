@@ -62,3 +62,10 @@ Mark the script PASS, CHANGES (list them) or BLOCK.
 1. Save to `projects/content-and-marketing/scripts/YYYY-MM-DD-slug.md`.
 2. Show Yinka the script and the compliance result. Nothing is posted from this skill.
 3. After recording, the video can be edited with the house sound: `references/music/msre-fusion-30s.mp3` for shorts, `msre-fusion-171s.mp3` for longer videos.
+
+## YouTube links from Yinka (inspiration queue)
+Yinka drops links in `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\video-ideas\1-inbox.txt`.
+1. Before scripting, read `1-inbox.txt` and `2-treated.csv`. Skip any link already in the log.
+2. For each new link: get the transcript and stats (vidIQ `vidiq_video_transcript`, `vidiq_video_stats`). Note the hook, the one idea and why it works.
+3. Write our own script on the idea, in this skill's format, with Nigerian context (NGX names as examples, naira, CBN, local scenes). Never copy wording, footage or music; figures from our data only.
+4. Remove the link from the inbox and append a row to `2-treated.csv`: date, link, original title, our script file, status (scripted / skipped), notes.
