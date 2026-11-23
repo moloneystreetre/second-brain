@@ -32,7 +32,7 @@ If a figure is missing, write `[NUMBER: what is needed]`. Never fill a number fr
 3. Write the five posts using the platform formats below.
 4. Run the compliance check (below). Fix anything that fails.
 5. Save to `projects/content-and-marketing/posts/YYYY-MM-DD.md` using the output format.
-6. Save the WhatsApp Status and Channel texts as a plain-text file on Yinka's computer: `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\whatsapp\YYYY-MM-DD_HHMM_whatsapp.txt` (London time of the run). Yinka posts WhatsApp from there.
+6. WhatsApp is posted as **cards**, not text. Write a spec JSON and run `python3 tools/make_whatsapp_cards.py SPEC.json OUTDIR` to make `YYYY-MM-DD_HHMM_status-card.png` (1080x1920, for Status) and `YYYY-MM-DD_HHMM_channel-card.png` (1080x1350, for both Channels). Save both, plus a short caption file `YYYY-MM-DD_HHMM_whatsapp.txt` (one line + link), to `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\whatsapp\` (London time of the run).
 7. Show Yinka the drafts and ask for the go-ahead. **Never post without it.**
 8. After approval: build the reel, schedule Instagram, Facebook and TikTok via Metricool, then **notify Yinka in the thread that posting is done**, with the planner links and the WhatsApp file name.
 
@@ -59,7 +59,7 @@ Still images can't carry music, so each day's card also becomes a 15-second vert
 
 ## Posting via Metricool
 - Brand blogId 8233421, timezone Europe/London. Linked: Facebook, Instagram, TikTok, YouTube. Not linked: LinkedIn, X, Threads. WhatsApp is always copy and paste.
-- Media must be a public URL. Upload the image or reel somewhere public (Yinka's site, or a Google Drive file Yinka has shared as "Anyone with the link").
+- Media must be a public URL. Upload the reel with Google Drive `create_file` into the Drive folder "MoloneyStreetRe - Metricool uploads" (id `1xfiMFZQB2WFhAtqv5btVqD-lXfAfaMhk`, parentId). Yinka shared that folder once as "Anyone with the link", so files inside inherit it: no daily sharing step. Upload from /home/user (file reference needs a local path).
 - Only schedule after Yinka approves the drafts. Schedule a few minutes ahead and share the planner links.
 
 ## Platform formats
