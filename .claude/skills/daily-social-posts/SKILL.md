@@ -32,7 +32,11 @@ If a figure is missing, write `[NUMBER: what is needed]`. Never fill a number fr
 3. Write the five posts using the platform formats below.
 4. Run the compliance check (below). Fix anything that fails.
 5. Save to `projects/content-and-marketing/posts/YYYY-MM-DD.md` using the output format.
-6. Show Yinka the drafts. **Never post anything.** Yinka approves and posts.
+6. Save the WhatsApp Status and Channel texts as a plain-text file on Yinka's computer: `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\whatsapp\YYYY-MM-DD_HHMM_whatsapp.txt` (London time of the run). Yinka posts WhatsApp from there.
+7. Show Yinka the drafts and ask for the go-ahead. **Never post without it.**
+8. After approval: build the reel, schedule Instagram, Facebook and TikTok via Metricool, then **notify Yinka in the thread that posting is done**, with the planner links and the WhatsApp file name.
+
+Runs automatically every weekday at 21:45 London time as a scheduled task.
 
 ## House card style
 Yinka's posts use a branded card (see `references/examples/weekly-street-note-linkedin-2026-W47.png`). For each day, also draft the card text:
