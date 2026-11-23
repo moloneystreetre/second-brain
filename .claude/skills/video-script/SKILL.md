@@ -69,3 +69,11 @@ Yinka drops links in `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\video-ideas\1-i
 2. For each new link: get the transcript and stats (vidIQ `vidiq_video_transcript`, `vidiq_video_stats`). Note the hook, the one idea and why it works.
 3. Write our own script on the idea, in this skill's format, with Nigerian context (NGX names as examples, naira, CBN, local scenes). Never copy wording, footage or music; figures from our data only.
 4. Remove the link from the inbox and append a row to `2-treated.csv`: date, link, original title, our script file, status (scripted / skipped), notes.
+
+## Weekend long version (from the YouTube links)
+Each linked idea can also become a longer video for the weekend.
+- Length 5-8 minutes (about 700-1,100 spoken words). Chapters: Hook → The idea → Nigerian example(s) with our data → Common mistakes → What to check on moloneystreetre.com → Sign-off.
+- Main home: YouTube (full video, with chapters and a thumbnail). Facebook gets the full video too. Cut one 60s teaser from it for IG, TikTok and Shorts.
+- Music: `references/music/msre-fusion-171s.mp3`, looped under the voice at a low level.
+- Timing: script on Thursday with the nightly drafts, Yinka approves by Friday, it posts Saturday around 11:00 London (12:00 Lagos).
+- Save as `scripts/YYYY-MM-DD-long-slug.md` and log it in `2-treated.csv` (notes: "long version").
