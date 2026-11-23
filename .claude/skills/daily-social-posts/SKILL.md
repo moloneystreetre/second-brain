@@ -46,6 +46,18 @@ Yinka's posts use a branded card (see `references/examples/weekly-street-note-li
 - Footer line: "Research and education, not personal advice."
 Colours: forest green header (#1E3F11 to #122A0C), white title, cream/light body, gold accents (#D4A85A).
 
+## Reel with music (Instagram, Facebook, TikTok)
+Still images can't carry music, so each day's card also becomes a 15-second vertical reel:
+1. Save the card image (e.g. `projects/content-and-marketing/posts/YYYY-MM-DD-card.png`).
+2. Run `python3 tools/card_to_reel.py CARD.png OUT.mp4 references/music/msre-fusion-30s.mp3` (needs ffmpeg and Pillow). It puts the card on the forest-green background with a slow zoom, the site URL, the disclaimer line and the house Afrobeat fusion track.
+3. Post it as an Instagram Reel, a Facebook Reel and a TikTok video. YouTube can take it as a Short.
+4. Music is MoloneyStreetRe's own AI-generated track (vidIQ). For longer videos (up to about 2 min 50 s) use `references/music/msre-fusion-171s.mp3`. Never use platform "trending" commercial songs on a business account.
+
+## Posting via Metricool
+- Brand blogId 8233421, timezone Europe/London. Linked: Facebook, Instagram, TikTok, YouTube. Not linked: LinkedIn, X, Threads. WhatsApp is always copy and paste.
+- Media must be a public URL. Upload the image or reel somewhere public (Yinka's site, or a Google Drive file Yinka has shared as "Anyone with the link").
+- Only schedule after Yinka approves the drafts. Schedule a few minutes ahead and share the planner links.
+
 ## Platform formats
 Account links are in `references/social-accounts.md`.
 - **WhatsApp Status:** 1-2 lines plus the card image. Short and punchy.
