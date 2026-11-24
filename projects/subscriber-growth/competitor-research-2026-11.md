@@ -65,7 +65,13 @@ The money comes from cheap courses and masterclasses on Selar (dozens of "Nigeri
 
 **4. Borrow audiences.** Pitch collabs or guest spots with mid-size NGX creators (Nigerian Investor and Femi Akinwale size). Post in diaspora groups and on LinkedIn, where UK-based Nigerians are.
 
-**5. Track weekly.** Count new signups by source each Friday. Working back from the deadline: (1,000 minus today's count) divided by about 18 weeks. That's the weekly target.
+**5. Track weekly.** On 24 Nov 2026 the site had 20 subscribers, so we need 980 more in about 18 weeks. That's about 55 a week on average. A realistic ramp:
+- **Dec:** 20 a week (about 100 in total)
+- **Jan:** 45 a week (about 180, with the Starter Kit and the workshop launch)
+- **Feb:** 75 a week (about 300, with the Pro launch and dividend season)
+- **Mar:** 90 a week (about 400, at the height of dividend season)
+
+Count new signups by source every Friday. If a month falls short, add the gap to the next one.
 
 **First income, in order of speed:**
 1. **A low-price workshop or recorded course** (January). "Investing in NGX from the UK" at around £15-25 abroad and ₦15,000 in Nigeria, sold on Selar or the site. It's the fastest proven earner in this niche and can stay education only.
