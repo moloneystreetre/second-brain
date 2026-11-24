@@ -23,7 +23,7 @@ Monday to Friday, 18:00-19:00 London time, after the NGX close. Skip NGX public 
 | Technical | `ngx_technical.xlsx` | NGX_Technicals |
 | Financials | `ngx_financials.xlsx` | NGX_Financials |
 
-Folder: `[MASTER FOLDER: to be confirmed by Yinka]`. One row per stock per day. Columns: **Date**, then the tab's columns in page order (Name, Symbol, ...), then **Exchange** (left blank, as in recent rows). Cells keep the page text exactly: `NGN 79.40`, `16x`, `Upgrade to Pro+`.
+Folder on Yinka's computer: `C:\Users\odbal\MoloneyStreetRe\data\ngx` (approved for this project). The same folder holds the daily NGX exchange files (`NGX_DD_MM_YYYY.xlsx`), `ngx_companies.xlsx` and the `_cache/` used by the scanner; don't touch those. `scanner/scripts/ngx_composite_score.py` reads the three files below, so their columns and cell style must not change. One row per stock per day. Columns: **Date**, then the tab's columns in page order (Name, Symbol, ...), then **Exchange** (left blank, as in recent rows). Cells keep the page text exactly: `NGN 79.40`, `16x`, `Upgrade to Pro+`.
 
 ## Steps
 1. Open the screener, set the country to NG, and confirm the stock count (about 141).
@@ -32,11 +32,12 @@ Folder: `[MASTER FOLDER: to be confirmed by Yinka]`. One row per stock per day. 
    - Load **every** row (scroll or page through until the row count matches the stock count). The table shows about 30 rows at a time.
    - Read the header cells and every row's cells from the table (JavaScript `innerText` on `thead th` and `tbody tr td`), as text.
 3. Save the capture as `projects/platform-enhancement/extracts/YYYY-MM-DD.json` in the format the script expects (see the top of `tools/ngx_extract_append.py`).
-4. Stage the three master files into the container, then run a dry run first:
+4. Check Excel isn't holding the files: if a fresh `~$ngx_*.xlsx` lock file is in the folder (today's date), ask Yinka to close Excel first. (An old one from 7 Nov is stale; ignore it.)
+5. Stage the three master files into the container (`device_stage_files`, note each `mtimeMs`), then run a dry run first:
    `python3 tools/ngx_extract_append.py CAPTURE.json MASTER_DIR --dry-run`
-5. If it passes, run it again without `--dry-run`. It backs up each file (`.YYYYMMDD-HHMM.bak`) before appending, then commit the files back to Yinka's folder.
-6. If the script stops, **do not force it**. Tell Yinka exactly which check failed (column change, wrong row count, duplicate date, header row in the data).
-7. Post a short summary in the thread (format below).
+6. If it passes, run it again without `--dry-run`, then copy the three updated files back with `device_commit_files`, passing each file's `expectedMtimeMs` so nothing Yinka changed in the meantime is overwritten. Before that, commit a dated copy of each original into `C:\Users\odbal\MoloneyStreetRe\data\ngx\_backups\` (an October technical file was corrupted once, so always keep the backup).
+7. If the script stops, **do not force it**. Tell Yinka exactly which check failed (column change, wrong row count, duplicate date, header row in the data).
+8. Post a short summary in the thread (format below).
 
 ## Quality checks (the script enforces these)
 - Today's date is not already in the file (no double runs).
