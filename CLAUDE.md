@@ -12,7 +12,7 @@ Grow subscribers: **1,000 subscribers by March 2027.** Content, marketing and pl
 @context/current-priorities.md
 @context/goals.md
 
-Rules in `.claude/rules/` load automatically: communication style, public content, and the weekday schedule.
+Rules in `.claude/rules/` load automatically: communication style, public content, the weekday schedule, and the daily PA routine ("morning", "data extract", "social posts", "status", "remember…").
 
 ## Tools and integrations
 - **Daily tools:** WhatsApp, Instagram, Threads, Facebook, LinkedIn, X, TikTok, YouTube, investing.com, Claude / Claude Code.
@@ -24,7 +24,7 @@ Skills live in `.claude/skills/`. Each skill gets its own folder: `.claude/skill
 Skills are built organically: when the same request comes up repeatedly, turn it into a skill so it runs the same way every time.
 
 ### Skills to build (backlog)
-1. **NGX data extract:** pull the day's NGX data from investing.com (Mon-Fri, 18:00-19:00) into a clean, consistent format.
+1. ~~**NGX data extract**~~ built: `.claude/skills/data-extract/` (appends to the three master Excel files via `tools/ngx_extract_append.py`).
 2. ~~**Daily social posts**~~ built: `.claude/skills/daily-social-posts/` (drafts saved to `projects/content-and-marketing/posts/`).
 3. ~~**Video scripting**~~ built: `.claude/skills/video-script/` (scripts saved to `projects/content-and-marketing/scripts/`).
 4. **Engagement replies:** draft comments and replies on posts.
