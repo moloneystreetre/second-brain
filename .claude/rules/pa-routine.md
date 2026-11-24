@@ -7,6 +7,7 @@ Short phrases Yinka can use. When one comes in, run the matching step.
 | Morning (optional) | "morning" | Today's plan, anything waiting on Yinka, anything due today |
 | 18:00, weekdays | "data extract" | Runs the `data-extract` skill: the investing.com NGX pull |
 | ~21:30, weekdays, after the platform update | "social posts" | Runs the `daily-social-posts` skill: drafts for every channel |
+| Any time, best after the nightly posts or next morning | "reply to these comments" | Runs the `comment-replies` skill: reply drafts for approval, questions logged as video ideas |
 | Any time | a direct ask | Quick asks answered straight away; bigger work becomes its own thread |
 | Any time | "status" | What's in progress, and what needs Yinka |
 | Any time | "remember…" | Saves it to memory (or the right context file) |

@@ -27,7 +27,7 @@ Skills are built organically: when the same request comes up repeatedly, turn it
 1. ~~**NGX data extract**~~ built: `.claude/skills/data-extract/` (appends to the three master Excel files via `tools/ngx_extract_append.py`).
 2. ~~**Daily social posts**~~ built: `.claude/skills/daily-social-posts/` (drafts saved to `projects/content-and-marketing/posts/`).
 3. ~~**Video scripting**~~ built: `.claude/skills/video-script/` (scripts saved to `projects/content-and-marketing/scripts/`).
-4. **Engagement replies:** draft comments and replies on posts.
+4. ~~**Engagement replies**~~ built: `.claude/skills/comment-replies/` (drafts saved to `projects/content-and-marketing/replies/`, viewer questions logged to `viewer-questions.md`).
 5. **NGX research and platform update notes:** summarise research and write up each platform update.
 
 Top three to hand off first: social posting, video scripting and recording, data extraction.
