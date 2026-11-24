@@ -69,6 +69,7 @@ Yinka drops links in `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\video-ideas\1-i
 2. For each new link: get the transcript and stats (vidIQ `vidiq_video_transcript`, `vidiq_video_stats`). Note the hook, the one idea and why it works.
 3. Write our own script on the idea, in this skill's format, with Nigerian context (NGX names as examples, naira, CBN, local scenes). Never copy wording, footage or music; figures from our data only.
 4. Remove the link from the inbox and append a row to `2-treated.csv`: date, link, original title, our script file, status (scripted / skipped), notes.
+5. If the inbox is empty, take the next unused idea from `projects/content-and-marketing/video-ideas-bank.md` (from competitor research) and mark it used with the script file name. While Yinka's voice isn't recorded yet, prefer ideas marked **T** (text/card-led or captioned screen recording).
 
 ## Weekend long version (from the YouTube links)
 Each linked idea can also become a longer video for the weekend.
