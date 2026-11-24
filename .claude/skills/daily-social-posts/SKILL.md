@@ -59,7 +59,8 @@ Still images can't carry music, so each day's card also becomes a 15-second vert
 
 ## Posting via Metricool
 - Brand blogId 8233421, timezone Europe/London. Linked: Facebook, Instagram, TikTok, YouTube. Not linked: LinkedIn, X, Threads. WhatsApp is always copy and paste.
-- Media must be a public URL. Upload the reel with Google Drive `create_file` into the Drive folder "MoloneyStreetRe - Metricool uploads" (id `1xfiMFZQB2WFhAtqv5btVqD-lXfAfaMhk`, parentId). Yinka shared that folder once as "Anyone with the link", so files inside inherit it: no daily sharing step. Upload from /home/user (file reference needs a local path).
+- Media must be a public URL. Upload the reel with Google Drive `create_file` into the Drive folder "MoloneyStreetRe - Metricool uploads" (id `1xfiMFZQB2WFhAtqv5btVqD-lXfAfaMhk`, parentId). Yinka shared that folder once as "Anyone with the link", so files inside should inherit it. On 24 Nov 2026 new uploads did not inherit it (Metricool could not read them), so after uploading, run Google Drive `share_file` with permissionId `anyoneWithLink`, role `reader` on each file before scheduling.
+- TikTok posts need `tiktokData.title`. YouTube Shorts need `youtubeData` with title, type `short` and `madeForKids` false. Upload from /home/user (file reference needs a local path).
 - Only schedule after Yinka approves the drafts. Schedule a few minutes ahead and share the planner links.
 
 ## Platform formats
