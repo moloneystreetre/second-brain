@@ -78,7 +78,7 @@ Questions are free research: they tell us what the audience wants to learn.
 4. Run the compliance check and fix anything that fails.
 5. Log the questions (above).
 6. Save to `projects/content-and-marketing/replies/YYYY-MM-DD.md` (add `-2`, `-3` for later batches the same day) in the output format.
-7. Show Yinka the drafts and ask for the go-ahead. **Never post without it.** Yinka can approve all, approve by number, or edit.
+7. Show Yinka the drafts and ask for the go-ahead with a decision card (see `.claude/rules/approvals.md`): Approve all / Change something, plus "Approve all but #N" when useful. **Never post without it.**
 8. After approval:
    - **YouTube:** post each approved reply with `vidiq_reply_to_comment` (channelId, videoId, parentCommentId from step 1, the exact approved text). Check `vidiq_comment_reply_permission` once first; if it says verification is needed, show Yinka the link and wait. Never re-send after an uncertain result, as it could post twice.
    - **Instagram, Facebook, TikTok, WhatsApp, LinkedIn:** no posting tool, so Yinka copies and pastes. Give each reply ready to copy, with the comment it answers.

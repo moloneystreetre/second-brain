@@ -2,3 +2,5 @@
 CLAUDE.local.md
 .claude/settings.local.json
 node_modules/
+*.mp4
+projects/content-and-marketing/reels/*.png
