@@ -60,7 +60,7 @@ Mark the script PASS, CHANGES (list them) or BLOCK.
 
 ## Output
 1. Save to `projects/content-and-marketing/scripts/YYYY-MM-DD-slug.md`.
-2. Show Yinka the script and the compliance result. Nothing is posted from this skill.
+2. Show Yinka the script and the compliance result, then ask with an Approve / Change something decision card (see `.claude/rules/approvals.md`). Nothing is posted from this skill.
 3. After recording, the video can be edited with the house sound: `references/music/msre-fusion-30s.mp3` for shorts, `msre-fusion-171s.mp3` for longer videos.
 
 ## YouTube links from Yinka (inspiration queue)

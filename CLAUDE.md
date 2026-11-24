@@ -12,7 +12,7 @@ Grow subscribers: **1,000 subscribers by March 2027.** Content, marketing and pl
 @context/current-priorities.md
 @context/goals.md
 
-Rules in `.claude/rules/` load automatically: communication style, public content, the weekday schedule, and the daily PA routine ("morning", "data extract", "social posts", "status", "remember…").
+Rules in `.claude/rules/` load automatically: communication style, public content, the weekday schedule, one-tap approvals, and the daily PA routine ("morning", "data extract", "social posts", "status", "remember…").
 
 ## Tools and integrations
 - **Daily tools:** WhatsApp, Instagram, Threads, Facebook, LinkedIn, X, TikTok, YouTube, investing.com, Claude / Claude Code.

@@ -33,7 +33,7 @@ If a figure is missing, write `[NUMBER: what is needed]`. Never fill a number fr
 4. Run the compliance check (below). Fix anything that fails.
 5. Save to `projects/content-and-marketing/posts/YYYY-MM-DD.md` using the output format.
 6. WhatsApp is posted as **cards**, not text. Write a spec JSON and run `python3 tools/make_whatsapp_cards.py SPEC.json OUTDIR` to make `YYYY-MM-DD_HHMM_status-card.png` (1080x1920, for Status) and `YYYY-MM-DD_HHMM_channel-card.png` (1080x1350, for both Channels). Save both, plus a short caption file `YYYY-MM-DD_HHMM_whatsapp.txt` (one line + link), to `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\whatsapp\` (London time of the run).
-7. Show Yinka the drafts and ask for the go-ahead. **Never post without it.**
+7. Show Yinka the drafts and ask for the go-ahead with an Approve / Change something decision card (see `.claude/rules/approvals.md`). **Never post without it.**
 8. After approval: build the reel, schedule Instagram, Facebook and TikTok via Metricool, then **notify Yinka in the thread that posting is done**, with the planner links and the WhatsApp file name.
 
 Runs automatically every weekday at 21:45 London time as a scheduled task.
