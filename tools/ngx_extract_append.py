@@ -48,6 +48,12 @@ def clean(cell):
     s = str(cell).strip()
     if s in ("", "-", "--", "N/A"):
         return None
+    if s.endswith("%") and not any(c.isalpha() for c in s):
+        # A paste into Excel turns "5.8%" into 0.058; the master files hold these as numbers.
+        try:
+            return round(float(s[:-1].replace(",", "")) / 100, 10)
+        except ValueError:
+            return s
     if any(k in s for k in NUMERIC_TEXT_KEEP) or any(c.isalpha() for c in s):
         return s  # keep as text, like the existing files
     try:
