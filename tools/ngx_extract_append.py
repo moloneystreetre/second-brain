@@ -143,7 +143,7 @@ def main():
         shutil.copy2(path, path.with_suffix(f".{stamp}.bak"))
         for r in rows:
             ws.append(r)
-            ws.cell(row=ws.max_row, column=1).number_format = "yyyy-mm-dd"
+            ws.cell(row=ws.max_row, column=1).number_format = "mm-dd-yy"  # Excel built-in short date: shows dd/mm/yyyy on a UK PC, same as earlier rows
         wb.save(path)
     print("DRY RUN, nothing written." if a.dry_run else "Saved.")
 

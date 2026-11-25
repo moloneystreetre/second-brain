@@ -61,6 +61,7 @@ This summary is also the figure check for the `daily-social-posts` skill later i
 - Data only: no commentary, no buy or sell views, in the summary or the files.
 - Never invent or fill a missing value. Leave it blank exactly as the page shows it.
 - Never edit or delete past rows. If an earlier day is wrong, tell Yinka and fix it only with a go-ahead.
+- **Date** is a real Excel date shown as dd/mm/yyyy (built-in short date format, `mm-dd-yy` in openpyxl), same as earlier rows. Never yyyy-mm-dd.
 - Percentages are stored as numbers, the way an Excel paste does it (`5.8%` -> 0.058); the script converts them.
 - Fields marked `Upgrade to Pro+` are paywalled on the free account. Keep them as they are.
 
