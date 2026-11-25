@@ -12,7 +12,7 @@ Monday to Friday, 18:00-19:00 London time, after the NGX close. Skip NGX public 
 
 ## Source
 - Page: https://uk.investing.com/stock-screener
-- Country filter: **NG** (Primary Listing: Nigeria, NGX). No other filters. Expect about **141 stocks**.
+- Country filter: **NG** (Primary Listing: Nigeria, NGX). No other filters. Expect about **143 stocks** (141 until 24 Nov 2026; AIRTELAFRI and SEPLAT appeared on 25 Nov).
 - Tabs, in this order: **Valuation**, **Technical**, **Financials**.
 - Use the built-in browser on Yinka's computer (site already allowed). If a cookie banner appears, choose the option that declines non-essential cookies.
 
@@ -29,9 +29,10 @@ Folder on Yinka's computer: `C:\Users\odbal\MoloneyStreetRe\data\ngx` (approved 
 1. Open the screener, set the country to NG, and confirm the stock count (about 141).
 2. For each tab (Valuation, Technical, Financials):
    - Click the tab and wait for the table to load.
-   - Load **every** row (scroll or page through until the row count matches the stock count). The table shows about 30 rows at a time.
-   - Read the header cells and every row's cells from the table (JavaScript `innerText` on `thead th` and `tbody tr td`), as text.
-3. Save the capture as `projects/platform-enhancement/extracts/YYYY-MM-DD.json` in the format the script expects (see the top of `tools/ngx_extract_append.py`).
+   - Load **every** row: the table is paged, 30 rows a page. Click page `1` in `[data-test=stocks-pagination]`, then `[data-test=companies-next-button]` until the first row stops changing.
+   - Read the header cells and every row's cells from the table (JavaScript `innerText` on `thead th` and each `tbody tr`'s children; the first cell is a `th`), as text.
+   - Switch views with the row "Overview | Insights | Valuation | Returns | Technical | Financials ..." (not the "Popular | Price | Valuation ..." filter chips). Wait ~5s after switching before reading, or values can be stale.
+3. To get the capture off the page without retyping it, build the JSON in the page and trigger a Blob download (`ngx_capture_YYYY-MM-DD.json`); it lands in `C:\Users\odbal\Downloads` (request that folder once), then stage it. Save the capture as `projects/platform-enhancement/extracts/YYYY-MM-DD.json` in the format the script expects (see the top of `tools/ngx_extract_append.py`).
 4. Check Excel isn't holding the files: if a fresh `~$ngx_*.xlsx` lock file is in the folder (today's date), ask Yinka to close Excel first. (An old one from 7 Nov is stale; ignore it.)
 5. Stage the three master files into the container (`device_stage_files`, note each `mtimeMs`), then run a dry run first:
    `python3 tools/ngx_extract_append.py CAPTURE.json MASTER_DIR --dry-run`
@@ -60,6 +61,7 @@ This summary is also the figure check for the `daily-social-posts` skill later i
 - Data only: no commentary, no buy or sell views, in the summary or the files.
 - Never invent or fill a missing value. Leave it blank exactly as the page shows it.
 - Never edit or delete past rows. If an earlier day is wrong, tell Yinka and fix it only with a go-ahead.
+- Percentages are stored as numbers, the way an Excel paste does it (`5.8%` -> 0.058); the script converts them.
 - Fields marked `Upgrade to Pro+` are paywalled on the free account. Keep them as they are.
 
 ## Known history in the files
