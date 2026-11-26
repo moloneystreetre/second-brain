@@ -10,8 +10,10 @@ def source_logos(im,names,x_right,y,h=34):
     Returns the names whose logo file is missing, so the run can flag them."""
     missing=[]; x=x_right
     for n in reversed(names or []):
-        fp=os.path.join(LOGOS,n.lower()+".png")
-        if not os.path.exists(fp): missing.append(n); continue
+        key=n.lower().replace(" ","")
+        hits=[f for f in sorted(os.listdir(LOGOS)) if f.lower().endswith(".png") and f.lower().replace(" ","").replace("logo","").startswith(key)] if os.path.isdir(LOGOS) else []
+        if not hits: missing.append(n); continue
+        fp=os.path.join(LOGOS,hits[0])
         lg=Image.open(fp).convert("RGBA"); lg=lg.resize((max(1,int(lg.width*h/lg.height)),h))
         x-=lg.width; im.paste(lg,(x,y),lg); x-=14
     return missing
