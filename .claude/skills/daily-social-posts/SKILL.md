@@ -89,6 +89,12 @@ MoloneyStreetRe is not authorised by the FCA (UK) or SEC Nigeria, so every post 
 - No promotion of brokers, apps, crypto or schemes.
 - Every figure has a source (moloneystreetre.com data or investing.com).
 
+## Source names: logos, not words (Yinka, 26 Nov 2026)
+- In the Daily Street Note card text and WhatsApp cards, never write source names such as "Nairametrics", "investing.com" or "BusinessDay". Write "(source: ...)"-free sentences, e.g. "The NGX bounced back after four losing days."
+- Instead pass the sources as logo keys: `card(..., sources=["nairametrics"])` in `tools/make_card.py`, and `"sources": ["nairametrics"]` in the WhatsApp spec. A tiny logo from `references/logos/<key>.png` is placed on the card.
+- Before building, copy any new PNGs from `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\logos\` into `references/logos/`. If a run prints `MISSING LOGO:`, mention it once in the drafts message; the card still goes out without the name.
+- Keep every source in the **Source figures** line of the posts file (internal record) so figures stay traceable.
+
 ## Output format
 ```markdown
 # Social posts: YYYY-MM-DD (Day)

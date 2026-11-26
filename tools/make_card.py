@@ -1,10 +1,21 @@
 #!/usr/bin/env python3
 """Render a Daily Street Note card (1080 wide) in house style. Usage: make_card.py OUT.png"""
-import sys, textwrap
+import sys, os, textwrap
 from PIL import Image, ImageDraw, ImageFont
 F="/usr/share/fonts/opentype/inter/Inter-%s.otf"
 def f(s,w="Bold"): return ImageFont.truetype(F%w,s)
-def card(out,label,title,date,body,chips,link,tags):
+LOGOS=os.path.join(os.path.dirname(os.path.abspath(__file__)),"..","references","logos")
+def source_logos(im,names,x_right,y,h=34):
+    """Paste tiny source logos (references/logos/<name>.png), right-aligned. Never writes source names as text.
+    Returns the names whose logo file is missing, so the run can flag them."""
+    missing=[]; x=x_right
+    for n in reversed(names or []):
+        fp=os.path.join(LOGOS,n.lower()+".png")
+        if not os.path.exists(fp): missing.append(n); continue
+        lg=Image.open(fp).convert("RGBA"); lg=lg.resize((max(1,int(lg.width*h/lg.height)),h))
+        x-=lg.width; im.paste(lg,(x,y),lg); x-=14
+    return missing
+def card(out,label,title,date,body,chips,link,tags,sources=None):
     W,H=1080,1080; im=Image.new("RGB",(W,H),(251,248,238)); d=ImageDraw.Draw(im)
     for y in range(300):
         t=y/300; d.line([(0,y),(W,y)],fill=tuple(int(a*(1-t)+b*t) for a,b in zip((30,63,17),(18,42,12))))
@@ -20,6 +31,8 @@ def card(out,label,title,date,body,chips,link,tags):
     y+=110; d.text((60,y),link,font=f(30,"Bold"),fill=(30,63,17)); d.text((60,y+50),tags,font=f(26,"Medium"),fill=(110,110,110))
     d.rounded_rectangle([60,H-170,W-60,H-90],radius=14,fill=(30,63,17)); d.text((W/2,H-130),"Subscribe for the full brief → moloneystreetre.com",font=f(32,"Bold"),fill=(255,255,255),anchor="mm")
     d.text((W/2,H-45),"Research and education, not personal advice.",font=f(24,"Medium"),fill=(110,110,110),anchor="mm")
+    miss=source_logos(im,sources,W-60,y+44)
+    if miss: print("MISSING LOGO:",", ".join(miss),"- add references/logos/<name>.png")
     im.save(out)
 if __name__=="__main__":
     card(sys.argv[1],"DAILY STREET NOTE","The Daily Street Note","Monday, 23 Nov 2026",

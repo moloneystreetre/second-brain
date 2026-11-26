@@ -1,8 +1,11 @@
 #!/usr/bin/env python3
 """WhatsApp cards in house style. Usage: make_whatsapp_cards.py SPEC.json OUTDIR
-SPEC keys: date, status_hook, status_sub, movers [[name,chg,up]], chips [[txt,colour]], channel_title, channel_points [..], tip"""
+SPEC keys: date, status_hook, status_sub, movers [[name,chg,up]], chips [[txt,colour]], channel_title, channel_points [..], tip, sources [logo names, optional]
+Never write source names (e.g. Nairametrics) in the text; list them in "sources" and a tiny logo is shown."""
 import json, sys, textwrap, os
 from PIL import Image, ImageDraw, ImageFont
+sys.path.insert(0,os.path.dirname(os.path.abspath(__file__)))
+from make_card import source_logos
 F="/usr/share/fonts/opentype/inter/Inter-%s.otf"
 def f(s,w="Bold"): return ImageFont.truetype(F%w,s)
 FOREST,DARK,GOLD,CREAM,RED,GREEN=(30,63,17),(14,34,10),(212,168,90),(251,248,238),(214,72,60),(110,190,90)
@@ -28,6 +31,7 @@ def status(s,out):
         d.rounded_rectangle([140,y,W-140,y+110],radius=24,fill=(255,255,255,0) if False else (24,52,14))
         d.text((190,y+55),("▲ " if up else "▼ ")+n,font=f(52,"ExtraBold"),fill=GREEN if up else RED,anchor="lm"); d.text((W-190,y+55),c,font=f(52,"ExtraBold"),fill="white",anchor="rm"); y+=135
     chips(d,W,y+30,s["chips"])
+    m=source_logos(im,s.get("sources"),W-60,H-320,h=40)
     d.text((W/2,H-230),"moloneystreetre.com",font=f(58,"ExtraBold"),fill="white",anchor="mm")
     d.text((W/2,H-150),"Research and education, not personal advice.",font=f(30,"Medium"),fill=CREAM,anchor="mm")
     im.save(out)
@@ -43,6 +47,8 @@ def channel(s,out):
     chips(d,W,y+10,s["chips"]); y+=120
     d.rounded_rectangle([60,y,W-60,y+215],radius=20,fill=(240,232,205)); d.text((90,y+25),"💡 BEGINNER TIP".replace("💡 ",""),font=f(30,"ExtraBold"),fill=(140,100,30)); yy=y+75
     for ln in textwrap.wrap(s["tip"],52): d.text((90,yy),ln,font=f(32,"Medium"),fill=(50,50,50)); yy+=42
+    m=source_logos(im,s.get("sources"),W-84,y+215-50,h=34)
+    if m: print("MISSING LOGO:",", ".join(m),"- add references/logos/<name>.png")
     d.rounded_rectangle([60,H-180,W-60,H-100],radius=14,fill=FOREST); d.text((W/2,H-140),"Full note → moloneystreetre.com",font=f(36),fill="white",anchor="mm")
     d.text((W/2,H-50),"Research and education, not personal advice. Past performance is not a reliable guide.",font=f(22,"Medium"),fill=(110,110,110),anchor="mm")
     im.save(out)
