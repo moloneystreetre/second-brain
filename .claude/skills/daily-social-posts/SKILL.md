@@ -87,13 +87,12 @@ MoloneyStreetRe is not authorised by the FCA (UK) or SEC Nigeria, so every post 
 - If a real stock or past performance appears, include: "Research and education, not personal advice." and, for past performance, "Past performance is not a reliable guide to future results." In the post body, not just a link.
 - Any benefit mentioned is paired with its main risk.
 - No promotion of brokers, apps, crypto or schemes.
-- Every figure has a source (moloneystreetre.com data or investing.com).
+- Every figure has a source (moloneystreetre.com data or investing.com), recorded internally only; never named in public text.
 
-## Source names: logos, not words (Yinka, 26 Nov 2026)
-- In the Daily Street Note card text and WhatsApp cards, never write source names such as "Nairametrics", "investing.com" or "BusinessDay". Write "(source: ...)"-free sentences, e.g. "The NGX bounced back after four losing days."
-- Instead pass the sources as logo keys: `card(..., sources=["nairametrics"])` in `tools/make_card.py`, and `"sources": ["nairametrics"]` in the WhatsApp spec. A tiny logo from `references/logos/<key>.png` is placed on the card.
-- Before building, copy any new PNGs from `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\logos\` into `references/logos/`. If a run prints `MISSING LOGO:`, mention it once in the drafts message; the card still goes out without the name.
-- Keep every source in the **Source figures** line of the posts file (internal record) so figures stay traceable.
+## Sources in public text (Yinka, 27 Nov 2026; replaces the 26 Nov logo rule)
+- Follow "Sources in public content" in `.claude/rules/public-content.md`: no source names and no source logos anywhere public (card, WhatsApp cards, all captions). NGX information is stated as market data or MSRe data.
+- Do not pass `sources=` to `tools/make_card.py` or `"sources"` in the WhatsApp spec. (The logo option is kept in the tools but switched off.)
+- Every source still goes in the **Source figures** line of the posts file (internal only).
 
 ## Output format
 ```markdown

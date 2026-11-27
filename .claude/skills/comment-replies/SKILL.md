@@ -56,7 +56,7 @@ MoloneyStreetRe is not authorised by the FCA (UK) or SEC Nigeria, so every reply
 - Any benefit paired with its main risk.
 - Tax, pensions, land, moving money abroad: "Rules change and depend on your situation; check with a qualified professional."
 - No promotion of brokers, apps, crypto or schemes, and no "DM me" for anything investment-related.
-- Figures only from moloneystreetre.com data or a named source. Unknown → `[NUMBER: what is needed]`.
+- Figures only from moloneystreetre.com data or a checked source (never name other outlets in a public reply; see `.claude/rules/public-content.md`). Unknown → `[NUMBER: what is needed]`.
 
 Mark each draft PASS or CHANGES. A reply that can't pass is replaced by a "we don't give personal advice, here's how to check" version.
 

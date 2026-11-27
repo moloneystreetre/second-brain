@@ -10,7 +10,7 @@ Turns a topic or the day's brief into a short video Yinka can record in one take
 ## Inputs
 - **Topic**, or "today's brief" (read https://moloneystreetre.com/today.html via the built-in browser on Yinka's computer).
 - Optional: **series** and **level** (defaults from the weekly rhythm below).
-- Figures come only from moloneystreetre.com data or a named, linked source. Unknown figures stay as `[NUMBER: what is needed]`.
+- Figures come only from moloneystreetre.com data or a checked source. Unknown figures stay as `[NUMBER: what is needed]`. Sources are recorded in FIGURES & SOURCES only; the spoken script and on-screen text never name or show other outlets (see `.claude/rules/public-content.md`).
 
 ## Weekly rhythm (defaults)
 | Day | Series | Level |
