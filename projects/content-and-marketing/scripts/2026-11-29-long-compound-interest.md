@@ -38,7 +38,7 @@ A quick tool you can do in your head: the Rule of 72. Divide 72 by the yearly re
 
 Now, the part that matters most in Nigeria.
 
-Compounding works on prices too. When inflation runs at 14.63%, everything you buy gets more expensive, and that compounds as well. Money sitting still while prices rise is a bucket with a hole. You can't see it leaking, but every month it holds less.
+Compounding works on prices too. When inflation runs at 14.06%, everything you buy gets more expensive, and that compounds as well. Money sitting still while prices rise is a bucket with a hole. You can't see it leaking, but every month it holds less.
 
 So the real question is never "how much did my money grow?" It's "did it grow faster than prices?" That's your real return. If your savings earn less than inflation, you're compounding backwards.
 
@@ -89,7 +89,7 @@ FIGURES & SOURCES (internal only, never on screen)
 - Judith: ₦20,000 × ((1.01^240 − 1) / 0.01) = ₦19.79m, monthly compounding at 12%/yr. Paid in 240 × ₦20k = ₦4.8m.
 - Bayo: ₦20,000 × ((1.01^120 − 1) / 0.01) = ₦4.60m. Paid in ₦2.4m. Ratio 4.3x.
 - Rule of 72: standard approximation.
-- Headline inflation: 14.63% (Yinka, 27 Nov). Not NGX data, so stated plainly without naming the publisher. Real source and month to be kept here: [Yinka to confirm month]. On-screen card adds "latest annual rate".
+- Headline inflation: 14.06% year-on-year, October 2026 CPI, National Bureau of Statistics (released mid-Nov 2026; e.g. https://von.gov.ng/nigerias-headline-inflation-falls-to-14-06-in-october/). Yinka's draft had 14.63%, which is the September 2026 figure (NBS, released 15 Oct). Not NGX data, so stated plainly without naming the publisher.
 - No stocks named.
 
 DISCLAIMER NEEDED: yes (returns, savings bond mention).
