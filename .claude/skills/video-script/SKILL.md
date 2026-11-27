@@ -24,9 +24,12 @@ Turns a topic or the day's brief into a short video Yinka can record in one take
 ## Voice
 - Calm, sure, warm, a little humour. An elder who reads the numbers; never a salesman.
 - Plain Nigerian English; a pidgin or Yoruba/Igbo/Hausa phrase only where it lands naturally.
-- Short sentences, spoken rhythm. 110-150 spoken words for 45-60s. Read every line aloud.
+- **Write in Yinka's own style: read `references/examples/yinka-script-style.md` first, every time.** It overrides the generic voice notes here (learned from Yinka's edits, 27 Nov 2026).
+- Spoken rhythm, fuller explained sentences, talk to "you". 110-150 spoken words for 45-60s. Read every line aloud.
 - One idea per video. If it needs two, it's two videos.
-- Openers to rotate: "Moloney Street, good morning." / "Sit down small, let's talk money."
+- Openers to rotate: "Moloney Street, good morning." / "Come sit down a minute for a quick money talk." / "Eh, have a seat and let's have our money talk, quickly." (Never "Sit down small".)
+- Spoken amounts as words the voice says ("20,000 Naira"); ₦ on screen only. Spell out abbreviations the first time ("Price to Earnings (P/E)").
+- When Yinka edits a script, fix only typos and facts, never the voice, and list what changed.
 - Sign-off every time: "Know the stock before you buy the story. See you on Moloney Street."
 
 ## Script template (five beats)
@@ -59,7 +62,7 @@ MoloneyStreetRe is not authorised by the FCA (UK) or SEC Nigeria, so it is educa
 Mark the script PASS, CHANGES (list them) or BLOCK.
 
 ## Output
-1. Save to `projects/content-and-marketing/scripts/YYYY-MM-DD-slug.md`.
+1. Save to `projects/content-and-marketing/scripts/YYYY-MM-DD-slug.md` **and** to OneDrive `PA MoloneyStreetRe\scripts\` (long videos in `scripts\long-videos\`), which is where Yinka reads and edits them.
 2. Show Yinka the script and the compliance result, then ask with an Approve / Change something decision card (see `.claude/rules/approvals.md`). Nothing is posted from this skill.
 3. After recording, the video can be edited with the house sound: `references/music/msre-fusion-30s.mp3` for shorts, `msre-fusion-171s.mp3` for longer videos.
 

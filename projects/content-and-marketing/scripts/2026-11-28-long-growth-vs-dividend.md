@@ -8,9 +8,9 @@ Post: YouTube + Facebook, Sat 28 Nov ~11:00 London (12:00 Lagos). 60s teaser for
 
 **CHAPTER 1 · HOOK (0:00-0:25)**
 
-Sit down small, let's talk money.
+Come sit down a minute for a quick money talk.
 
-One share can pay you every year and still leave you poorer. Another can pay you nothing for ten years and still be the one that builds your house. Today we do the maths, in naira, so you never have to guess which is which.
+One share may pay you every year but still leave you poor. However, another may pay you nothing for ten years and still be the one share that helps you build a house. So, let's do the maths, in naira, so you never have to guess which is which.
 
 **CHAPTER 2 · THE IDEA (0:25-1:40)**
 
@@ -22,33 +22,33 @@ Road two: share the money with the owners. That's you. That payment is a dividen
 
 That's all it is. No magic. Just a company deciding what to do with its profit.
 
-Now the part people don't like to hear. On the day a share goes ex-dividend, the price usually drops by roughly the size of the dividend. Say a share is ₦100 and the company pays ₦5. After the dividend you hold a share worth about ₦95, plus ₦5 in your account. You didn't gain ₦5. You moved ₦5 from one pocket to the other.
+Now the part people don't like to hear. On the ex-dividend day, which comes before the dividend is paid, the price usually drops by roughly the size of the dividend. Say a share is ₦100 and the company pays ₦5. After the dividend the share's worth is now about ₦95, plus ₦5 in your account. You didn't gain ₦5. You moved ₦5 from one pocket to the other.
 
-So why do people love dividends? Patience. We'll get there.
+So why do people love dividends? Patience now! We go get there.
 
 **CHAPTER 3 · THE NAIRA EXAMPLES (1:40-4:10)**
 
 These numbers are illustrations, not forecasts. Real returns go up and down.
 
-First, growth. Put ₦1 million in, add nothing, and suppose it grows 15% a year.
+First, is growth. You put ₦1 million in, you added nothing, and suppose it grows 15% a year.
 
-After 10 years: about ₦4 million.
-After 20 years: about ₦16.4 million.
-After 30 years: about ₦66 million.
+After 10 years: you have about ₦4 million.
+After 20 years: around ₦16.4 million.
+After 30 years: that should be in the region of ₦66 million.
 
-Look closely. The first ten years added three million. The last ten added nearly fifty. Same money, same rate. That's compounding: your gains start earning their own gains. Slow, then boring, then very boring, then suddenly vertical.
+Now look closely. The first ten years added three million thereabout. The last ten added nearly fifty. Same money, same rate. That's compounding: your gains start earning their own gains. Slow, then boring, then very boring, then suddenly vertical.
 
-Now dividends. Put ₦1 million into shares paying a 6% dividend yield. Yield simply means the yearly dividend divided by what you paid. 6% of ₦1 million is ₦60,000 a year, before tax. [NUMBER: current withholding tax rate on NGX dividends] comes off first.
+Now to dividends. You put in ₦1 million into shares paying a 6% dividend yield. Yield simply means the yearly dividend divided by what you paid. 6% of ₦1 million is ₦60,000 a year, before tax. 10% is the current withholding tax rate on NGX dividends which comes off first.
 
-Two people, same shares. Say the price itself grows 3% a year.
+Two people, same shares. Assume the share price grows 3% a year.
 
-Mama Tunde spends every dividend. After 30 years her shares are worth about ₦2.4 million, and the cash she received along the way has gone on school fees and fuel. That's fine. That's a salary.
+Mama Joy spends every dividend she earns. After 30 years her shares are worth about ₦2.4 million, and the cash she received along the way has gone on to pay for school fees and fuel. That's fine. That's a salary.
 
-Uncle Emeka reinvests every dividend. Each payment buys more shares, which pay more dividends, which buy more shares. Same shares, same 30 years, and before tax his ₦1 million becomes about ₦13 million.
+Uncle Peter, on the other hand, reinvests every dividend he gets. Each payment he uses to buy more shares, this increases the number of shares he owns and increases his dividends the following year. Same shares, same 30 years, and before tax his ₦1 million becomes about ₦13 million.
 
 Same company. One decision. Spend it, and a dividend is income. Reinvest it, and it compounds.
 
-And in Nigeria there's one more person at the table: inflation. If prices in the market are rising faster than your money grows, your bucket is leaking. Any return you look at, ask: is it beating inflation, and is it beating the naira's fall against the dollar if you think in dollars?
+And in Nigeria there's one more person at the table: Mr. Inflation. If prices in the market are rising faster than your money grows, your bucket is leaking. Any return you look at, ask: is it beating inflation, and is it beating the naira's fall against the dollar if you think in dollars?
 
 **CHAPTER 4 · WHO EACH ONE SUITS (4:10-5:20)**
 
@@ -62,15 +62,15 @@ Many careful investors do both. Build with growth while working, then shift grad
 
 **CHAPTER 5 · COMMON MISTAKES (5:20-6:30)**
 
-One. Chasing a high yield. A yield goes up two ways: the dividend rises, or the share price collapses. When you see a share "yielding 20%", ask why. Often the market is saying that dividend is in danger.
+One. Are you chasing high yields? A yield goes up two ways: the dividend rises, or the share price collapses. When you see a share "yielding 20%", ask why. Often the market is saying that dividend is in danger.
 
 Two. Buying just before the qualification date to "collect" the dividend, then watching the price drop by about the same amount. Remember the two pockets.
 
-Three. Forgetting the price you pay. A great company bought at a silly price can be a poor investment for years. Check the P/E: what you pay for each naira of profit.
+Three. Forgetting the price you pay. A great company bought at a silly price can be a poor investment for years. Check the Price to Earnings (P/E): this is what you pay for each naira of profit.
 
-Four. Putting everything in one share. If one stock is half your money, that's not a portfolio, that's a bet. Spread across companies and sectors.
+Four. Putting everything in one share. If one stock is half of your investment, that is not a portfolio, but rather a bet. Spread your investments across companies and sectors.
 
-Five. Not updating your e-dividend mandate. Dividends paid by cheque go missing. Make sure your bank details are registered so the money actually reaches you.
+Five. Not updating your e-dividend mandate. Dividends are no longer paid via cheques again. Make sure you complete e-dividend mandate with the appropriate registrar through your broker, so you don't have to miss your payment(s). 
 
 **CHAPTER 6 · CHECK IT ON MOLONEYSTREETRE.COM (6:30-6:55)**
 
@@ -104,7 +104,7 @@ Market stalls and a shop expanding (growth); a bank alert arriving (dividend); a
 FIGURES & SOURCES (internal only, never on screen)
 - ₦1m × 1.15^10 / ^20 / ^30 = ₦4.05m / ₦16.37m / ₦66.21m. Our own arithmetic, hypothetical rate.
 - Spend: ₦1m × 1.03^30 = ₦2.43m (plus ₦60k a year paid out). Reinvest: ₦1m × 1.09^30 (6% yield + 3% growth) = ₦13.27m, before tax. Our own arithmetic, hypothetical rates.
-- Dividend withholding tax: [NUMBER: current rate, check before recording].
+- Dividend withholding tax: 10% (Yinka, 27 Nov). Tax line on screen covers it: "Rules change and depend on your situation; check with a qualified professional."
 - Ex-dividend price drop: general market mechanics, no figure.
 
 DISCLAIMER NEEDED: yes (returns, dividends, tax).
@@ -118,4 +118,4 @@ POST CAPTIONS
 - Facebook: Growth or dividends? We ran the naira maths so you don't have to guess. Full video here. Education, not advice. www.moloneystreetre.com
 - Teaser (IG/TikTok): Your dividend isn't free money on the day it lands. Here's why 👇 Full video on YouTube. #NGX #NigerianStocks #Dividends
 
-COMPLIANCE: **PASS** (no stocks named, no buy/sell calls, all figures labelled as illustrations, benefit and risk paired, tax line included). One open figure: the dividend withholding tax rate.
+COMPLIANCE: **PASS** (no stocks named, no buy/sell calls, all figures labelled as illustrations, benefit and risk paired, tax line included). Reviewed 27 Nov after Yinka's edits: ex-dividend timing corrected, typos fixed, WHT 10% filled.

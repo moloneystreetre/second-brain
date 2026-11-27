@@ -10,7 +10,7 @@ Post: YouTube + Facebook, Sun 6 Dec ~11:00 London (12:00 Lagos). 60s teaser for 
 
 Moloney Street, good morning.
 
-Investing sounds hard because nobody explains the words in order. They throw "yield", "P/E" and "ETF" at you like pepper in your eye. Today, ten words, one after the other, each one building on the last. By the end, the financial news will make sense.
+Investing sounds like it's hard because nobody explains the words in order. They throw "yield", "P/E" and "ETF" at you like pepper in your eye. Today, ten words, one after the other, each one building on the last. By the end, the financial news will make sense.
 
 **CHAPTER 2 · WORDS 1-3: OWNING (0:25-2:00)**
 
@@ -18,7 +18,7 @@ One. **Share**, or stock. A small slice of a company. Own a share, you own part 
 
 Two. **Dividend**. Part of the profit the company pays out to shareholders. Usually once or twice a year on the NGX, as an interim and a final dividend. Not every company pays one, and a company can cut it.
 
-Three. **Dividend yield**. The dividend divided by the share price. A ₦50 share paying ₦4 a year has an 8% yield. But careful: if the price crashes, the yield jumps. A high yield can be a warning, not a gift.
+Three. **Dividend yield**. The dividend divided by the share price. A 50 Naira share paying 4 Naira a year has an 8% yield. But careful: if the price crashes, the yield jumps. A high yield can be a warning, not a gift.
 
 **CHAPTER 3 · WORDS 4-5: LENDING (2:00-3:15)**
 
@@ -36,13 +36,13 @@ Seven. **Diversification**. Don't carry all your eggs in one basket on a Lagos r
 
 Eight. **Mutual fund and ETF**. Instead of picking shares yourself, you buy into a pot that holds many. A mutual fund is run by a fund manager and you buy or sell units with the fund. An ETF is a fund that trades on the exchange like a share. Both give you instant spreading, for a fee.
 
-Nine. **Fees**. Small percentages, big money. Say ₦1 million grows 12% a year for 20 years: about ₦9.6 million. Now take 1% a year in fees, so it grows 11%: about ₦8.1 million. That 1% cost you about ₦1.6 million. Always ask what you're paying, every year.
+Nine. **Fees**. Small percentages, big money. Say 1 million Naira grows 12% a year for 20 years: about 9.6 million Naira. Now take 1% a year in fees, so it grows 11%: about 8.1 million Naira. That 1% cost you about 1.6 million Naira. Always ask what you're paying, every year.
 
 **CHAPTER 6 · WORD 10, PLUS ONE HABIT (6:00-7:00)**
 
-Ten. **P/E ratio**. Price divided by earnings per share. If a share costs ₦50 and the company made ₦5 profit per share last year, the P/E is 10. You're paying ₦10 for every ₦1 of yearly profit. Higher isn't automatically bad and lower isn't automatically cheap, but it tells you what you're paying for.
+Ten. **P/E ratio**. Price divided by earnings per share. If a share costs 50 Naira and the company made 5 Naira profit per share last year, the P/E is 10. You're paying 10 Naira for every 1 Naira of yearly profit. Higher isn't automatically bad and lower isn't automatically cheap, but it tells you what you're paying for.
 
-And one habit: **cost averaging**. Invest the same amount on a schedule, say ₦10,000 every month. Over five months the price goes ₦10, ₦8, ₦5, ₦8, ₦10. Your ₦50,000 buys 6,500 shares at an average of about ₦7.69, below the average price. You don't need to time the market. Prices may still end lower than you started, so it's a habit, not a shield.
+And one habit: **cost averaging**. Invest the same amount on a schedule, say 10,000 Naira every month. Over five months the price goes 10 Naira, 8 Naira, 5 Naira, 8 Naira, 10 Naira. Your 50,000 Naira buys 6,500 shares at an average of about 7.69 Naira, below the average price. You don't need to time the market. Prices may still end lower than you started, so it's a habit, not a shield.
 
 **CHAPTER 7 · COMMON MISTAKES (7:00-7:35)**
 

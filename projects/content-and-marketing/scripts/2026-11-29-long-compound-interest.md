@@ -10,7 +10,7 @@ Post: YouTube + Facebook, Sun 29 Nov ~11:00 London (12:00 Lagos). 60s teaser for
 
 Moloney Street, good morning.
 
-Two friends save the same ₦20,000 a month. One starts at 25, one at 35. By 45, the early one doesn't have double. She has more than four times as much. Today, why.
+Two friends save ₦20,000 every month. One started at 25, the other at 35. By 45, the one who started early hasn't just doubled, but has more than four times more. Today, but why?
 
 **CHAPTER 2 · THE IDEA (0:20-1:30)**
 
@@ -24,13 +24,13 @@ Compounding needs three things: money, a return, and time. Of the three, time is
 
 **CHAPTER 3 · THE NAIRA EXAMPLES (1:30-3:30)**
 
-These numbers are illustrations, not forecasts. Real returns go up and down, and some years they go down.
+These numbers are illustrations only, not forecasts. Real returns go up and down, and some years they go down.
 
-Adaeze saves ₦20,000 a month from age 25. Suppose her money grows 12% a year. After 20 years she has paid in ₦4.8 million. Her pot is worth about ₦19.8 million. Fifteen million of that is growth she never worked for.
+Judith saves ₦20,000 every month from age 25. Suppose her money grows at 12% per year. After 20 years she would have paid about ₦4.8 million, but her pot is worth about ₦19.8 million. Fifteen million of that is growth she never worked for.
 
-Bayo saves the same ₦20,000 a month, same 12%, but starts at 35. By 45 he has paid in ₦2.4 million and his pot is about ₦4.6 million.
+Bayo saves the same ₦20,000 per month, he gets the same 12%, but he started at age 35. By 45 he would have paid in ₦2.4 million and his pot is just about ₦4.6 million.
 
-Adaeze paid in twice as much. She ended up with more than four times as much. The difference isn't effort. It's ten extra years for the seed to keep growing.
+Judith paid in twice as much. She ended up with more than four times as much. The difference isn't effort. It's ten extra years for the seed to keep growing.
 
 A quick tool you can do in your head: the Rule of 72. Divide 72 by the yearly return, and that's roughly how many years your money takes to double. At 12%, 72 divided by 12 is 6. About six years to double.
 
@@ -38,7 +38,7 @@ A quick tool you can do in your head: the Rule of 72. Divide 72 by the yearly re
 
 Now, the part that matters most in Nigeria.
 
-Compounding works on prices too. When inflation runs at [NUMBER: latest headline inflation rate], everything you buy gets more expensive, and that compounds as well. Money sitting still while prices rise is a bucket with a hole. You can't see it leaking, but every month it holds less.
+Compounding works on prices too. When inflation runs at 14.63%, everything you buy gets more expensive, and that compounds as well. Money sitting still while prices rise is a bucket with a hole. You can't see it leaking, but every month it holds less.
 
 So the real question is never "how much did my money grow?" It's "did it grow faster than prices?" That's your real return. If your savings earn less than inflation, you're compounding backwards.
 
@@ -52,7 +52,7 @@ Two. Interrupting the compounding. Every time you pull the money out, you dig up
 
 Three. Ignoring fees. A 1% or 2% yearly charge doesn't sound like much, but it compounds against you, year after year.
 
-Four. Falling for "guaranteed 10% a month". Real compounding is slow. Anyone promising fast, fixed, high returns is usually showing you a Ponzi, not a plan. Check if a scheme is registered on the SEC Nigeria website before you send a kobo.
+Four. Falling for "guaranteed 10% a month". Real compounding is slow. Anyone promising fast, fixed, high returns is usually showing you a Ponzi, not a plan. Check if the scheme is registered on the SEC Nigeria website before you send them a dime.
 
 Five. Forgetting the leaking bucket. A high number that doesn't beat inflation is not growth.
 
@@ -73,7 +73,7 @@ ON SCREEN
 - 0:30 Two cards: "Simple: interest on what you put in" / "Compound: interest on your interest too"
 - 0:55 Animation: maize seed → harvest → replant, the field growing each season
 - 1:30 Banner (stays through chapter 3): "Illustrations, not forecasts"
-- 1:45 Chart: Adaeze ₦20k/month from 25 → ₦19.8m at 45 (paid in ₦4.8m)
+- 1:45 Chart: Judith ₦20k/month from 25 → ₦19.8m at 45 (paid in ₦4.8m)
 - 2:30 Chart: Bayo ₦20k/month from 35 → ₦4.6m at 45 (paid in ₦2.4m)
 - 3:05 Card: "Rule of 72: 72 ÷ 12% ≈ 6 years to double"
 - 3:30 Leaking bucket animation, full screen: "Did it beat inflation?"
@@ -86,15 +86,15 @@ B-ROLL / VISUALS
 Maize field and planting; young woman at 25 and man at 35 checking phones; bucket with a hole; market prices on a board; host at desk.
 
 FIGURES & SOURCES (internal only, never on screen)
-- Adaeze: ₦20,000 × ((1.01^240 − 1) / 0.01) = ₦19.79m, monthly compounding at 12%/yr. Paid in 240 × ₦20k = ₦4.8m.
+- Judith: ₦20,000 × ((1.01^240 − 1) / 0.01) = ₦19.79m, monthly compounding at 12%/yr. Paid in 240 × ₦20k = ₦4.8m.
 - Bayo: ₦20,000 × ((1.01^120 − 1) / 0.01) = ₦4.60m. Paid in ₦2.4m. Ratio 4.3x.
 - Rule of 72: standard approximation.
-- Headline inflation: [NUMBER: latest rate, check before recording]. This is not NGX data, so it is stated plainly without naming the publisher. **Flagged for Yinka:** keep it, or cut the figure and say "when inflation is high".
+- Headline inflation: 14.63% (Yinka, 27 Nov). Not NGX data, so stated plainly without naming the publisher. Real source and month to be kept here: [Yinka to confirm month]. On-screen card adds "latest annual rate".
 - No stocks named.
 
 DISCLAIMER NEEDED: yes (returns, savings bond mention).
 
-TEASER (60s, IG/TikTok/Shorts): the hook + the Adaeze vs Bayo charts + "the seed you don't eat is the seed that grows", then the sign-off.
+TEASER (60s, IG/TikTok/Shorts): the hook + the Judith vs Bayo charts + "the seed you don't eat is the seed that grows", then the sign-off.
 
 POST CAPTIONS
 - YouTube title: Compound Interest in Naira: Why ₦20k a Month at 25 Beats Starting at 35

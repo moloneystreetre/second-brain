@@ -8,19 +8,19 @@ Post: YouTube + Facebook, Sat 5 Dec ~11:00 London (12:00 Lagos). 60s teaser for 
 
 **CHAPTER 1 · HOOK (0:00-0:20)**
 
-Sit down small, let's talk money.
+Eh, have a seat and let's have our money talk, quickly.
 
-You hear "the NGX gained today" or "the All-Share Index fell 1%" and you nod like you understand. By the end of this video, you will. No big grammar. Just suya.
+You hear "the NGX gained today" or "the All-Share Index fell 1%" and you nod like you understand. By the end of this video, you go understand. No big grammar. Just simplicity.
 
 **CHAPTER 2 · THE IDEA: WHAT A SHARE IS (0:20-1:45)**
 
-Mallam Sani has the best suya spot on the street. People queue every night. He wants a second grill, but he doesn't have the ₦2 million it costs.
+Mallam Sani has the best suya spot on the street. People queue there every night. He wants to buy a second grill, but he doesn't have the 2 million Naira it costs.
 
-So he says: I'll split my business into 100 equal pieces. Anyone who gives me ₦20,000 owns one piece. When the business makes profit, each piece gets its share.
+So he says: I'll split my business into 100 equal pieces. Anyone who gives me 20,000 Naira owns one piece. When the business makes profit, each piece gets its share.
 
 Each piece is a share. If you own one, you own one hundredth of the suya business. Not the grill, not the spices. A slice of the whole thing, and a slice of its profit.
 
-Now imagine thousands of businesses doing this, and a single, regulated marketplace where people can buy and sell those pieces from each other. In Nigeria, that marketplace is the Nigerian Exchange, the NGX. Your shares are held in your name with the CSCS, the central depository, linked to your CHN, your clearing house number, through a broker registered with the SEC.
+Now imagine thousands of businesses doing this, and a single, regulated marketplace where people can buy and sell those pieces from each other. In Nigeria, that marketplace is the Nigerian Exchange, the NGX. Your shares are held in your name with the Central Securities Clearing System (CSCS), the central depository, linked to your CHN, your clearing house number, through a broker registered with the SEC.
 
 **CHAPTER 3 · WHY PRICES MOVE (1:45-3:15)**
 
@@ -38,11 +38,11 @@ So what is "the NGX gained 1% today"?
 
 There are well over a hundred companies on the NGX. Nobody wants to read every price every day. So the All-Share Index adds them up into one number, weighted by size. When that number rises, the market as a whole went up that day. When it falls, the market went down. Your own shares can still do the opposite.
 
-And size has a name: market capitalisation, or market cap. Price per share times the number of shares. That's why a ₦500 share isn't automatically a bigger company than a ₦5 share. It depends how many shares there are.
+And size has a name: market capitalisation, or market cap. Price per share times the number of shares. That's why a 500 Naira share isn't automatically a bigger company than a 5 Naira share. It depends how many shares there are.
 
 **CHAPTER 5 · COMMON MISTAKES (4:15-5:20)**
 
-One. Thinking a cheap price means a cheap company. A ₦2 share can be expensive and a ₦2,000 share can be good value. Look at profit, not the price tag.
+One. Thinking a cheap price means a cheap company. A 2 Naira share can be expensive and a 2,000 Naira share can be good value. Look at profit, not the price tag.
 
 Two. Buying on a tip because "everyone is buying". Before acting on any tip, ask: Who gains if I buy? What does the company actually earn? Where is the evidence?
 
@@ -79,7 +79,7 @@ B-ROLL / VISUALS
 Suya grill at night; a queue; road works; a screen showing a moloneystreetre.com chart; host at desk.
 
 FIGURES & SOURCES (internal only, never on screen)
-- Suya example: ₦2m ÷ 100 = ₦20,000 a piece. Invented.
+- Suya example: 2m Naira ÷ 100 = 20,000 Naira a piece. Invented.
 - "Well over a hundred companies on the NGX": our own NGX data for 26 Nov 2026 covers 143 listed stocks (MSRe master valuation file). Wording kept general on purpose.
 - No individual stocks named.
 
