@@ -34,7 +34,7 @@ If a figure is missing, write `[NUMBER: what is needed]`. Never fill a number fr
 5. Save to `projects/content-and-marketing/posts/YYYY-MM-DD.md` using the output format.
 6. WhatsApp is posted as **cards**, not text. Write a spec JSON and run `python3 tools/make_whatsapp_cards.py SPEC.json OUTDIR` to make `YYYY-MM-DD_HHMM_status-card.png` (1080x1920, for Status) and `YYYY-MM-DD_HHMM_channel-card.png` (1080x1350, for both Channels). Save both, plus a short caption file `YYYY-MM-DD_HHMM_whatsapp.txt` (one line + link), to `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\whatsapp\` (London time of the run).
 7. Show Yinka the drafts and ask for the go-ahead with an Approve / Change something decision card (see `.claude/rules/approvals.md`), never by asking Yinka to type "go". If a Drive share is needed, ask for it on a card too ("I've shared it" / "Post it myself tonight"). **Never post without it.** The Drive files live in the odbalogun@gmail.com Google account, so Yinka must be signed into that account to see Share.
-8. After approval: build the reel, schedule Instagram, Facebook and TikTok via Metricool, then **notify Yinka in the thread that posting is done**, with the planner links and the WhatsApp file name.
+8. After approval: build the reel, schedule Instagram, Facebook, TikTok and LinkedIn via Metricool, then **notify Yinka in the thread that posting is done**, with the planner links and the WhatsApp file name.
 
 Runs automatically every weekday at 21:45 London time as a scheduled task.
 
@@ -50,16 +50,17 @@ Yinka's posts use a branded card (see `references/examples/weekly-street-note-li
 - Footer line: "Research and education, not personal advice."
 Colours: forest green header (#1E3F11 to #122A0C), white title, cream/light body, gold accents (#D4A85A).
 
-## Reel with music (Instagram, Facebook, TikTok)
+## Reel with music (Instagram, Facebook, TikTok, LinkedIn)
 Still images can't carry music, so each day's card also becomes a 15-second vertical reel:
 1. Save the card image (e.g. `projects/content-and-marketing/posts/YYYY-MM-DD-card.png`).
 2. Run `python3 tools/card_to_reel.py CARD.png OUT.mp4 references/music/msre-fusion-30s.mp3` (needs ffmpeg and Pillow). It puts the card on the forest-green background with a slow zoom, the site URL, the disclaimer line and the house Afrobeat fusion track.
-3. Post it as an Instagram Reel, a Facebook Reel and a TikTok video. YouTube can take it as a Short.
+3. Post it as an Instagram Reel, a Facebook Reel, a TikTok video and a LinkedIn video post (with the LinkedIn caption). YouTube can take it as a Short.
 4. Music is MoloneyStreetRe's own AI-generated track (vidIQ). For longer videos (up to about 2 min 50 s) use `references/music/msre-fusion-171s.mp3`. Never use platform "trending" commercial songs on a business account.
 
 ## Posting via Metricool
-- Brand blogId 8233421, timezone Europe/London. Linked: Facebook, Instagram, TikTok, YouTube. Not linked: LinkedIn, X, Threads. WhatsApp is always copy and paste.
+- Brand blogId 8233421, timezone Europe/London. Linked: Facebook, Instagram, TikTok, YouTube, LinkedIn (Yinka's personal profile; added to daily posting 28 Nov 2026). Not linked: X, Threads. WhatsApp is always copy and paste.
 - Media must be a public URL. Upload the reel with Google Drive `create_file` into the Drive folder "MoloneyStreetRe - Metricool uploads" (id `1xfiMFZQB2WFhAtqv5btVqD-lXfAfaMhk`, parentId). Yinka shared that folder once as "Anyone with the link", so files inside should inherit it. On 24 Nov 2026 new uploads did not inherit it (Metricool could not read them), so after uploading, run Google Drive `share_file` with permissionId `anyoneWithLink`, role `reader` on each file before scheduling. If that share is blocked (a permission prompt or the classifier can refuse it, especially in scheduled runs), don't keep retrying. Tell Yinka in the thread which file needs sharing, with its Drive link, and ask them to set it to "Anyone with the link" (or to re-share the whole folder so new files inherit it). Schedule once that's done. Metricool copies the video when it schedules, so the Drive link only needs to work at that moment.
+- LinkedIn posts use the LinkedIn caption, `linkedinData` `{"type":"post","previewIncluded":true}` and the same reel as media.
 - TikTok posts need `tiktokData.title`. YouTube Shorts need `youtubeData` with title, type `short` and `madeForKids` false. Upload from /home/user (file reference needs a local path).
 - Only schedule after Yinka approves the drafts. Schedule a few minutes ahead and share the planner links.
 
