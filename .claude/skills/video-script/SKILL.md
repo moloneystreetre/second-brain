@@ -26,7 +26,7 @@ Turns a topic or the day's brief into a short video Yinka can record in one take
 - Plain Nigerian English; a pidgin or Yoruba/Igbo/Hausa phrase only where it lands naturally.
 - Short sentences, spoken rhythm. 110-150 spoken words for 45-60s. Read every line aloud.
 - One idea per video. If it needs two, it's two videos.
-- Openers to rotate: "Moloney Street, good morning." / "Sit down small, let's talk money."
+- Openers to rotate: "Moloney Street, good morning." / "Come sit down a minute for a quick money talk." / "Eh, have a seat and let's have our money talk, quickly." (see `references/examples/yinka-script-style.md`)
 - Sign-off every time: "Know the stock before you buy the story. See you on Moloney Street."
 
 ## Script template (five beats)
@@ -69,7 +69,7 @@ Yinka drops links in `C:\Users\odbal\OneDrive\PA MoloneyStreetRe\video-ideas\1-i
 2. For each new link: get the transcript and stats (vidIQ `vidiq_video_transcript`, `vidiq_video_stats`). Note the hook, the one idea and why it works.
 3. Write our own script on the idea, in this skill's format, with Nigerian context (NGX names as examples, naira, CBN, local scenes). Never copy wording, footage or music; figures from our data only.
 4. Remove the link from the inbox and append a row to `2-treated.csv`: date, link, original title, our script file, status (scripted / skipped), notes.
-5. If the inbox is empty, take the next unused idea from `projects/content-and-marketing/video-ideas-bank.md` (from competitor research) and mark it used with the script file name. While Yinka's voice isn't recorded yet, prefer ideas marked **T** (text/card-led or captioned screen recording).
+5. If the inbox is empty, take the next unused idea from `projects/content-and-marketing/video-ideas-bank.md` (from competitor research) and mark it used with the script file name. Yinka's cloned voice is live (28 Nov), so V ideas work too; daily voiced reels are made with the `voiced-reel` skill.
 
 ## Weekend long version (from the YouTube links)
 Each linked idea can also become a longer video for the weekend.
