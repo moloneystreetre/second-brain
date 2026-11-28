@@ -1,0 +1,47 @@
+{
+ "title": "Why you got fewer IPO shares",
+ "scenes": [
+  {
+   "head": "You applied for 10,000 shares. You got 2,000.",
+   "body": "Did somebody cheat you?",
+   "line": "Eh, have a seat and let's have our money talk, quickly. You applied for 10,000 shares in a new offer, and you only got 2,000. Did somebody cheat you? Patience now! We go get there.",
+   "img": "A confused young Nigerian man looking at a letter in his hands, sitting on a bed, soft morning light"
+  },
+  {
+   "head": "What is an IPO?",
+   "body": "Initial Public Offering: a company sells shares to the public for the first time",
+   "line": "An Initial Public Offering, or IPO, is when a company sells its shares to the public for the first time, at a fixed offer price, for a set period.",
+   "img": "A modern Nigerian company headquarters building with a crowd of people outside, celebration mood, no logos"
+  },
+  {
+   "head": "Oversubscribed",
+   "body": "People asked for more shares than were on offer",
+   "line": "Now, if people ask for more shares than the company is selling, the offer is oversubscribed. So, the shares are shared out using a formula called the basis of allotment, and many people get fewer than they asked for.",
+   "img": "A long queue of Nigerian people outside an office building, many holding forms, busy day"
+  },
+  {
+   "head": "Your extra money comes back",
+   "body": "Returned for the shares you didn't get",
+   "line": "The money for the shares you didn't get is returned to you. Make sure your bank details and Bank Verification Number are correct, so it comes back without wahala.",
+   "img": "Nigerian naira notes being handed back across a desk, close-up of hands, warm light"
+  },
+  {
+   "head": "Then the shares land in your CSCS account",
+   "body": "After the allotment is approved, trading can start",
+   "line": "Once the allotment is approved, your shares are credited to your Central Securities Clearing System account, and then the shares can start trading on the exchange.",
+   "img": "A Nigerian woman checking her investment account on a laptop, satisfied, modern apartment"
+  },
+  {
+   "head": "A hot IPO is not guaranteed profit",
+   "body": "Read the prospectus. Understand the business first.",
+   "line": "One more thing. A popular offer is not a guarantee of profit. Read the prospectus, and understand the business before you apply.",
+   "img": "A thick prospectus document on a desk next to reading glasses and a cup of tea, natural light"
+  },
+  {
+   "head": "Know the stock before you buy the story.",
+   "body": "One plain-English money lesson every weekday at moloneystreetre.com",
+   "line": "One simple money lesson every weekday on moloneystreetre.com. Know the stock before you buy the story. See you on Moloney Street.",
+   "img": "A Nigerian couple smiling while reading on a tablet together on a balcony at golden hour"
+  }
+ ]
+}

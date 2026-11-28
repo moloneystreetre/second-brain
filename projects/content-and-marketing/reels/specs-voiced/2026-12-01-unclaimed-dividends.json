@@ -1,0 +1,41 @@
+{
+ "title": "Money you may already be owed",
+ "scenes": [
+  {
+   "head": "Money you may already be owed",
+   "body": "Unclaimed dividends, found in 3 steps",
+   "line": "Eh, have a seat and let's have our money talk, quickly. You may have dividends sitting somewhere with your name on them, and you don't even know it.",
+   "img": "A Nigerian woman in her fifties at a kitchen table in Lagos, looking surprised and happy at old share certificates and letters, warm evening light"
+  },
+  {
+   "head": "Why dividends go missing",
+   "body": "No e-dividend mandate, an old address or bank account, or your name spelt differently",
+   "line": "So, how does a dividend go missing? Most times, there is no e-dividend mandate, the address or bank account is old, or your name is spelt differently in different places.",
+   "img": "A pile of old unopened envelopes and faded paper cheques on a wooden desk, dusty, nostalgic mood, Nigerian setting"
+  },
+  {
+   "head": "Step 1: Find the registrar",
+   "body": "Every listed company has one. The name is in its annual report.",
+   "line": "Step one. Find the company's registrar. Every listed company has one, and you will find the name in its annual report or on its website. The registrar keeps the list of shareholders.",
+   "img": "A young Nigerian man reading a company annual report booklet at a desk with a laptop, focused, modern Lagos office"
+  },
+  {
+   "head": "Step 2: Ask, with your details",
+   "body": "Full name, old addresses, CSCS number and BVN",
+   "line": "Step two. Contact the registrar with your full name, any old address you used, your Central Securities Clearing System number if you have one, and your Bank Verification Number. Ask them to check for unclaimed dividends.",
+   "img": "A Nigerian man on a phone call holding a notepad with a checklist, calm and organised, bright office"
+  },
+  {
+   "head": "Step 3: Fill the e-dividend mandate",
+   "body": "Future dividends go straight into your bank account",
+   "line": "Step three. Complete the e-dividend mandate form through your broker or the registrar. Once that is done, future dividends go straight into your bank account. No more lost cheques.",
+   "img": "A smiling Nigerian woman looking at a banking app notification on her smartphone showing money received, close-up, warm light"
+  },
+  {
+   "head": "Know the stock before you buy the story.",
+   "body": "One plain-English money lesson every weekday at moloneystreetre.com",
+   "line": "If you inherited shares from family, check those too. One simple money lesson every weekday on moloneystreetre.com. Know the stock before you buy the story. See you on Moloney Street.",
+   "img": "A Nigerian family of three generations sitting together on a sofa looking at documents and a tablet, happy, golden hour light"
+  }
+ ]
+}
