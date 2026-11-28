@@ -1,0 +1,47 @@
+{
+ "title": "Rumour Test: this stock will 10x before December",
+ "scenes": [
+  {
+   "head": "\"This stock will 10x before December!\"",
+   "body": "Let's run the rumour test.",
+   "line": "Come sit down a minute for a quick money talk. Somebody sent you a message: this stock will go up ten times before December, enter now! Before you send your money, let's run the rumour test.",
+   "img": "A young Nigerian man looking sceptically at a phone full of excited chat messages, evening, sitting on a sofa"
+  },
+  {
+   "head": "Question 1: Who is talking?",
+   "body": "Do they gain if you buy?",
+   "line": "Question one. Who is talking? Is it someone who already owns the stock, and will gain if you and others rush in? If they won't tell you, that is your answer.",
+   "img": "A shadowy figure in a hoodie typing on a smartphone in a dim room, mysterious mood, Nigerian city lights outside"
+  },
+  {
+   "head": "Question 2: What has changed?",
+   "body": "New profits, a new contract, a filing? Or just noise?",
+   "line": "Question two. What has actually changed in the business? New profits, a new contract, an official filing on the exchange? Or just noise and screenshots?",
+   "img": "A Nigerian woman comparing a printed company report with her laptop screen at a desk, careful and focused"
+  },
+  {
+   "head": "Question 3: Is 10x even realistic?",
+   "body": "A ₦1 trillion company would need to become ₦10 trillion. Illustrative numbers.",
+   "line": "Question three. Is it even realistic? Ten times means a company worth 1 trillion Naira must become worth 10 trillion Naira in a few weeks. And on the exchange, a share can only move about ten percent in a day.",
+   "img": "A tall stack of gold coins next to a much smaller stack on a wooden table, dramatic side light"
+  },
+  {
+   "head": "Question 4: What if you're wrong?",
+   "body": "Never put in money you can't afford to lose.",
+   "line": "Question four. What happens if you are wrong? Stocks pushed up by rumours can fall just as fast, and the last people in often hold the loss. Never put in money you cannot afford to lose.",
+   "img": "A worried Nigerian man holding his head while looking at a laptop, late night, desk lamp"
+  },
+  {
+   "head": "Rumour test result: FAIL",
+   "body": "Check the numbers and filings before the hype.",
+   "line": "So, this rumour fails the test. Check the company's numbers and filings first. Patience now! Real money is made slowly.",
+   "img": "A calm Nigerian woman closing a laptop and smiling confidently, bright home office with plants"
+  },
+  {
+   "head": "Know the stock before you buy the story.",
+   "body": "One plain-English money lesson every weekday at moloneystreetre.com",
+   "line": "One simple money lesson every weekday on moloneystreetre.com. Know the stock before you buy the story. See you on Moloney Street.",
+   "img": "A Nigerian father and daughter reading together on a tablet at a dining table, warm evening light"
+  }
+ ]
+}

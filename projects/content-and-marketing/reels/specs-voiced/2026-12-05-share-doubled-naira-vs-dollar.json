@@ -1,0 +1,47 @@
+{
+ "title": "Your share doubled. Did you make money?",
+ "scenes": [
+  {
+   "head": "Your share doubled. Did you make money?",
+   "body": "It depends which money you count in.",
+   "line": "Eh, have a seat and let's have our money talk, quickly. Your share price doubled. Congratulations! But did you really make money? It depends on which money you are counting in.",
+   "img": "A happy young Nigerian woman celebrating while looking at her phone, confetti-like golden light, living room"
+  },
+  {
+   "head": "In naira: you doubled",
+   "body": "₦1 million became ₦2 million. Illustrative numbers.",
+   "line": "Say you put 1 million Naira into a share, and some years later it is worth 2 million Naira. In naira, you doubled your money.",
+   "img": "Two neat stacks of Nigerian naira notes on a desk, one twice as tall as the other, warm light"
+  },
+  {
+   "head": "In dollars: maybe not",
+   "body": "If the naira lost half its value, your dollars stayed the same.",
+   "line": "Now look closely. If, over the same years, the naira lost half its value against the dollar, your 2 million Naira buys the same dollars your 1 million did before. In dollars, you stood still.",
+   "img": "Naira notes and US dollar notes side by side on a table with a calculator, close-up, moody light"
+  },
+  {
+   "head": "And Mr. Inflation is waiting",
+   "body": "Rising prices eat into the gain too.",
+   "line": "And Mr. Inflation is also waiting. If prices in the market doubled too, your 2 million Naira only buys the same things your 1 million used to buy.",
+   "img": "A busy Nigerian open-air food market with a woman frowning at prices, baskets of tomatoes and peppers"
+  },
+  {
+   "head": "Check your real return",
+   "body": "Compare with inflation, and with the dollar if you think in dollars.",
+   "line": "So, what should you check? Compare your return with inflation. And if you live abroad or think in dollars, compare it with the exchange rate too. That is your real return.",
+   "img": "A Nigerian man in the diaspora on a video call with family, laptop on a desk, cosy flat, evening"
+  },
+  {
+   "head": "Real growth beats rising prices",
+   "body": "Anything less, and you're running on the spot.",
+   "line": "The goal is simple. Growth that beats rising prices is real growth. Anything less, and you are running on the spot.",
+   "img": "A Nigerian woman jogging at sunrise along the Lagos lagoon, golden light, energetic"
+  },
+  {
+   "head": "Know the stock before you buy the story.",
+   "body": "One plain-English money lesson every weekday at moloneystreetre.com",
+   "line": "One simple money lesson every weekday on moloneystreetre.com. Know the stock before you buy the story. See you on Moloney Street.",
+   "img": "A smiling Nigerian grandmother teaching her grandson with a notebook at a table, warm golden light"
+  }
+ ]
+}
