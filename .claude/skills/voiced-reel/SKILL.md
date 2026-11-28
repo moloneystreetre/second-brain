@@ -8,8 +8,9 @@ description: Make MoloneyStreetRe's daily voiced lesson reels (60-90s, vertical)
 A vertical lesson reel in the house long-video style, voiced with Yinka's cloned voice. Replaces the no-voice text reels of 24 Nov (batch 1). Example batch: `reels/2026-12-batch2-voiced/` in project files and OneDrive.
 
 ## Cadence and cost
-- About 180 vidIQ credits per reel (6-7 pictures at 22, voiceover 28 per 1,000 characters). The Boost plan renews about 2,000 a month, so plan **3 reels a week** (default Mon, Tue, Wed at 22:15 London, after the nightly data post) unless Yinka asks for more. Check `vidiq_balance` before starting and say what the batch will cost.
-- Make the week's reels in one batch (best Thursday to Saturday for the next week) so Yinka approves once.
+- **Every weekday, Monday to Friday**, at 22:15 London, after the nightly data post (Yinka, 28 Nov, after upgrading vidIQ to Max: about 6,000 credits a month, renewing on the 28th).
+- About 200 vidIQ credits per reel (6-7 pictures at 22, voiceover 28 per 1,000 characters), so about 4,400 a month for 22 reels. Check `vidiq_balance` before starting and say what the batch will cost; flag it if the balance won't cover the week.
+- Make the next week's five reels in one batch (best Thursday to Saturday) so Yinka approves once.
 
 ## 1. Pick the topics
 Next unused ideas from `projects/content-and-marketing/video-ideas-bank.md` (now that the voice exists, any format works), or Yinka's inbox (`OneDrive\PA MoloneyStreetRe\video-ideas\1-inbox.txt`, see the video-script skill). Mark each idea used with the reel's file name. One idea per reel.
