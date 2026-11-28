@@ -12,3 +12,6 @@
 - Never name or show logos of other research, news or data sites (Nairametrics, investing.com, BusinessDay and so on) in cards, captions, scripts, replies or WhatsApp. We promote our own brand, not competitors.
 - If a fact is not available on the NGX (e.g. a merger report or macro news), prefer leaving it out. If it is essential, say it plainly without naming the outlet, and flag it to Yinka in the drafts message.
 - Keep the real source of every figure in the internal **Source figures** record so it stays traceable.
+
+## Brand name style (Yinka, 28 Nov 2026)
+Always write the brand as **The MoloneyStreetRe** (capital T, this exact casing), in captions, cards, reels, thumbnails and scripts. Never all caps ("THE MOLONEYSTREETRE") and never lower-case "the". Tools card_to_reel.py and lesson_reel.py use this form; series labels in reel specs too (e.g. "The MoloneyStreetRe · FRESHMAN").

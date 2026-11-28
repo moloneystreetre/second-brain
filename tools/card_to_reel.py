@@ -24,7 +24,7 @@ def background(card_path, out_png):
     card = card.resize((cw, int(cw*card.height/card.width)), Image.LANCZOS)
     top = (H - card.height)//2
     bg.paste(card, (40, top))
-    d.text((W//2, top-110), "THE MOLONEYSTREETRE", font=font(56), fill=GOLD, anchor="mm")
+    d.text((W//2, top-110), "The MoloneyStreetRe", font=font(56), fill=GOLD, anchor="mm")
     d.text((W//2, top+card.height+90), "moloneystreetre.com", font=font(52), fill=CREAM, anchor="mm")
     d.text((W//2, top+card.height+170), "Research and education, not personal advice.", font=font(34), fill=CREAM, anchor="mm")
     bg.save(out_png)

@@ -3,7 +3,7 @@
 
 Usage: lesson_reel.py SPEC.json OUT.mp4 [MUSIC.mp3]
 
-Spec: {"series": "THE MOLONEYSTREETRE · FRESHMAN",
+Spec: {"series": "The MoloneyStreetRe · FRESHMAN",
        "slides": [{"head": "Big line", "body": "Smaller supporting text", "secs": 4}, ...]}
 The last slide should be the sign-off/CTA. Every slide carries the disclaimer line.
 Also writes OUT_slideN.png stills (handy as a carousel).
